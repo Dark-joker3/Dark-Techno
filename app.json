@@ -1,0 +1,18 @@
+{
+  "name": "Dark-Techno",
+  "description": "A simple WhatsApp Bot",
+  "repository": "https://github.com/Dark-joker3/Dark-Techno",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "custom", "simple-wabot", "Dark"],
+   "buildpacks": [
+  {
+    "url": "heroku/nodejs"
+  },
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },
+  {
+    "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+  }    
+ ]
+}
